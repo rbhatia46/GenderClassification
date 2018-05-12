@@ -12,6 +12,8 @@ Y = ['male', 'male', 'female', 'female', 'male', 'male', 'female', 'female',
 
 
 # The fit method trains the decision tree on our dataset
+
+# In a nutshell: fitting is equal to training. Then, after it is trained, the model can be used to make predictions, usually with a .predict() method call.
 clf = clf.fit(X, Y)
 
 prediction = clf.predict([[160,35 , 38]])
